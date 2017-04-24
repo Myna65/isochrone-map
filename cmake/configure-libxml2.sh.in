@@ -1,0 +1,2 @@
+export CPPFLAGS=$1
+./autogen.sh --host=$2 --prefix=$3 ${@:4}
